@@ -8,7 +8,7 @@ CREATE TABLE [dbo].[department_employee](
 	[record_id] [bigint] NULL
 ) ON [PRIMARY]
 GO 
-INSERT [dbo].[department_users] ([employee_id], [emp_started_at], [emp_ended_at], [department_id], [record_id]) VALUES 
+INSERT [dbo].[department_employee] ([employee_id], [emp_started_at], [emp_ended_at], [department_id], [record_id]) VALUES 
   (1, CAST(N'2025-03-20' AS Date), CAST(N'2025-06-24' AS Date), 1, 1)
 , (1, CAST(N'2024-12-14' AS Date), CAST(N'2025-03-19' AS Date), 2, 2)
 , (1, CAST(N'2024-09-09' AS Date), CAST(N'2024-12-13' AS Date), 3, 3)
